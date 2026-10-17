@@ -7,7 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <h1 class="header-title">MARFIN</h1>
+            </div>
+            <div class="header-right-side-container">
+                <div class="sign-in-container">
+                    <a href="form.html">Sign In</a>
+                </div>
+              <div class="country-flag-container">
+                <div class="country-flag"> <img src="images/svg/portugal-flag-icon.svg" alt="Portugal Flag" class="flag-icon"></div>
+              </div>
+              <div class="cart-container">
+                <div class="cart-icon">
+                  <img src="images/svg/cart-icon.svg" alt="Cart Icon" class="cart-icon">
+                </div>
+                <p> [<span class="cart-count" id="cart-count"></span>] </p>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-grid-container">
+            <aside class="filter-container"></aside>
+            <div class="products-container">
+                <div class="product-card" data-category="gloves" data-brand="LS2">
+                    <div class="product-image">
+                        <img src="images/product-images/gloves/ls2/ls2-spark-2_leather-gloves.png" alt="LS2 Spark 2 Leather Gloves" class="product-image">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-about">
+                            <h3 class="product-title">LS2 Spark 2 Leather Gloves</h3>
+                            <span class="product-price">$79.99</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart-button"> <img src="images/svg/add-to-cart.svg" alt="Add to Cart" class="add-to-cart-icon"> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Moto Equipament. All rights reserved.</p>
+        </div>
+    </footer>
     <script type="module" src="script.js"></script>
 </body>
 </html>

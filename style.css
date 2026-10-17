@@ -1,0 +1,13 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flag-icon, .cart-icon {
+    width: 200px; /* !! to change the size of the flag, change this value */
+}
+
+.filter-label {
+    text-transform: uppercase;
+}

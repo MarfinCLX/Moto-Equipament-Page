@@ -1,0 +1,367 @@
+export const filterProducts = [
+{
+    filterName: 'All',
+    filterOption: 'all',
+    filterIcon: '', //'images/svg/filter-icon.svg'
+    brandFilters: [
+        {
+            filterTitle: 'All',
+            brandOption: 'all',
+            filterName: 'filter',
+            filterId: 'all',
+            filterValue: 'all',
+            isChecked: 'checked'
+        }
+    ]
+}, {
+    filterName: 'Helmets',
+    filterOption: 'helmets',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: 'AGV',
+            brandOption: 'helmets-agv',
+            filterName: 'filter',
+            filterId: 'helmets-agv',
+            filterValue: 'helmets-agv',
+            isChecked: ''
+        }, {
+            filterTitle: 'AIROH',
+            brandOption: 'helmets-airoh',
+            filterName: 'filter',
+            filterId: 'helmets-airoh',
+            filterValue: 'helmets-airoh',
+            isChecked: ''    
+        }, {
+            filterTitle: ' ALPINESTARS',
+            brandOption: 'helmets-alpinestars',
+            filterName: 'filter',
+            filterId: 'helmets-alpinestars',
+            filterValue: 'helmets-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'helmets-ls2',
+            filterName: 'filter',
+            filterId: 'helmets-ls2',
+            filterValue: 'helmets-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'HJC',
+            brandOption: 'helmets-hjc',
+            filterName: 'filter',
+            filterId: 'helmets-hjc',
+            filterValue: 'helmets-hjc',
+            isChecked: ''
+        }, {
+            filterTitle: 'FOX-RACING',
+            brandOption: 'helmets-fox-racing',
+            filterName: 'filter',
+            filterId: 'helmets-fox-racing',
+            filterValue: 'helmets-fox_racing',
+            isChecked: ''
+        }, {
+            filterTitle: 'KYT',
+            brandOption: 'helmets-kyt',
+            filterName: 'filter',
+            filterId: 'helmets-kyt',
+            filterValue: 'helmets-kyt',
+            isChecked: ''
+        }, {
+            filterTitle: 'MT-HELMETS',
+            brandOption: 'helmets-mt-helmets',
+            filterName: 'filter',
+            filterId: 'helmets-mt-helmets',
+            filterValue: 'helmets-mt_helmets',
+            isChecked: ''
+        }, {
+            filterTitle: 'NEXX',
+            brandOption: 'helmets-nexx',
+            filterName: 'filter',
+            filterId: 'helmets-nexx',
+            filterValue: 'helmets-nexx',
+            isChecked: ''
+        }, {
+            filterTitle: 'ORIGIN',
+            brandOption: 'helmets-origin',
+            filterName: 'filter',
+            filterId: 'helmets-origin',
+            filterValue: 'helmets-origin',
+            isChecked: ''
+        }, {
+            filterTitle: 'SCORPION',
+            brandOption: 'helmets-scorpion',
+            filterName: 'filter',
+            filterId: 'helmets-scorpion',
+            filterValue: 'helmets-scorpion',
+            isChecked: ''
+        }, {
+            filterTitle: 'SHARK',
+            brandOption: 'helmets-shark',
+            filterName: 'filter',
+            filterId: 'helmets-shark',
+            filterValue: 'helmets-shark',
+            isChecked: ''
+        }, {
+            filterTitle: 'SHOEI',
+            brandOption: 'helmets-shoei',
+            filterName: 'filter',
+            filterId: 'helmets-shoei',
+            filterValue: 'helmets-shoei',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'helmets-thor',
+            filterName: 'filter',
+            filterId: 'helmets-thor',
+            filterValue: 'helmets-thor',
+            isChecked: ''
+        }
+    ]
+}, {
+    filterName: 'Gloves',
+    filterOption: 'gloves',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: '100%',
+            brandOption: 'gloves-100%',
+            filterName: 'filter',
+            filterId: 'gloves-100%',
+            filterValue: 'gloves-100%',
+            isChecked: ''
+        }, {
+            filterTitle: 'ALPINESTARS',
+            brandOption: 'gloves-alpinestars',
+            filterName: 'filter',
+            filterId: 'gloves-alpinestars',
+            filterValue: 'gloves-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'FOX-RACING',
+            brandOption: 'gloves-fox_racing',
+            filterName: 'filter',
+            filterId: 'gloves-fox_racing',
+            filterValue: 'gloves-fox_racing',
+            isChecked: ''
+        }, {
+            filterTitle: 'DAINESE',
+            brandOption: 'gloves-dainese',
+            filterName: 'filter',
+            filterId: 'gloves-dainese',
+            filterValue: 'gloves-dainese',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'gloves-ls2',
+            filterName: 'filter',
+            filterId: 'gloves-ls2',
+            filterValue: 'gloves-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'gloves-thor',
+            filterName: 'filter',
+            filterId: 'gloves-thor',
+            filterValue: 'gloves-thor',
+            isChecked: ''
+        }
+    ]
+}, {
+    filterName: 'Pants',
+    filterOption: 'pants',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: 'ALPINESTARS',
+            brandOption: 'pants-alpinestars',
+            filterName: 'filter',
+            filterId: 'pants-alpinestars',
+            filterValue: 'pants-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'pants-ls2',
+            filterName: 'filter',
+            filterId: 'pants-ls2',
+            filterValue: 'pants-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'DAINESE',
+            brandOption: 'pants-dainese',
+            filterName: 'filter',
+            filterId: 'pants-dainese',
+            filterValue: 'pants-dainese',
+            isChecked: ''
+        }, {
+            filterTitle: 'FOX-RACING',
+            brandOption: 'pants-fox_racing',
+            filterName: 'filter',
+            filterId: 'pants-fox_racing',
+            filterValue: 'pants-fox_racing',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'pants-thor',
+            filterName: 'filter',
+            filterId: 'pants-thor',
+            filterValue: 'pants-thor',
+            isChecked: ''
+        }
+    ]
+}, {
+    filterName: 'Coats',
+    filterOption: 'coats',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: 'ALPINESTARS',
+            brandOption: 'coats-alpinestars',
+            filterName: 'filter',
+            filterId: 'coats-alpinestars',
+            filterValue: 'coats-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'coats-ls2',
+            filterName: 'filter',
+            filterId: 'coats-ls2',
+            filterValue: 'coats-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'DAINESE',
+            brandOption: 'coats-dainese',
+            filterName: 'filter',
+            filterId: 'coats-dainese',
+            filterValue: 'coats-dainese',
+            isChecked: ''
+        }, {
+            filterTitle: 'MACNA',
+            brandOption: 'coats-macna',
+            filterName: 'filter',
+            filterId: 'coats-macna',
+            filterValue: 'coats-macna',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'coats-thor',
+            filterName: 'filter',
+            filterId: 'coats-thor',
+            filterValue: 'coats-thor',
+            isChecked: ''
+        }
+    ]
+}, {
+    filterName: 'Footwear',
+    filterOption: 'footwear',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: 'ALPINESTARS',
+            brandOption: 'footwear-alpinestars',
+            filterName: 'filter',
+            filterId: 'footwear-alpinestars',
+            filterValue: 'footwear-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'footwear-ls2',
+            filterName: 'filter',
+            filterId: 'footwear-ls2',
+            filterValue: 'footwear-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'DAINESE',
+            brandOption: 'footwear-dainese',
+            filterName: 'filter',
+            filterId: 'footwear-dainese',
+            filterValue: 'footwear-dainese',
+            isChecked: ''
+        }, {
+            filterTitle: 'FORMA',
+            brandOption: 'footwear-forma',
+            filterName: 'filter',
+            filterId: 'footwear-forma',
+            filterValue: 'footwear-forma',
+            isChecked: ''
+        }, {
+            filterTitle: 'FOX-RACING',
+            brandOption: 'footwear-fox_racing',
+            filterName: 'filter',
+            filterId: 'footwear-fox_racing',
+            filterValue: 'footwear-fox_racing',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'footwear-thor',
+            filterName: 'filter',
+            filterId: 'footwear-thor',
+            filterValue: 'footwear-thor',
+            isChecked: ''
+        }
+    ]
+}, { 
+    filterName: 'Backpacks',
+    filterOption: 'backpacks',
+    filterIcon: '', //'images/svg/filter-icon.svg',
+    brandFilters: [
+        {
+            filterTitle: '100%',
+            brandOption: 'backpacks-100%',
+            filterName: 'filter',
+            filterId: 'backpacks-100%',
+            filterValue: 'backpacks-100%',
+            isChecked: ''
+        }, {
+            filterTitle: 'ALPINESTARS',
+            brandOption: 'backpacks-alpinestars',
+            filterName: 'filter',
+            filterId: 'backpacks-alppinestars',
+            filterValue: 'backpacks-alpinestars',
+            isChecked: ''
+        }, {
+            filterTitle: 'LS2',
+            brandOption: 'backpacks-ls2',
+            filterName: 'filter',
+            filterId: 'backpacks-ls2',
+            filterValue: 'backpacks-ls2',
+            isChecked: ''
+        }, {
+            filterTitle: 'DAINESE',
+            brandOption: 'backpacks-dainese',
+            filterName: 'filter',
+            filterId: 'backpacks-dainese',
+            filterValue: 'backpacks-dainese',
+            isChecked: ''
+        }, {
+            filterTitle: 'FOX-RACING',
+            brandOption: 'backpacks-fox_racing',
+            filterName: 'filter',
+            filterId: 'backpacks-fox_racing',
+            filterValue: 'backpacks-fox_racing',
+            isChecked: ''
+        }, {
+            filterTitle: 'GIVI',
+            brandOption: 'backpacks-givi',
+            filterName: 'filter',
+            filterId: 'backpacks-givi',
+            filterValue: 'backpacks-givi',
+            isChecked: ''
+        }, {
+            filterTitle: 'SHAD',
+            brandOption: 'backpacks-shad',
+            filterName: 'filter',
+            filterId: 'backpacks-shad',
+            filterValue: 'backpacks-shad',
+            isChecked: ''
+        }, {
+            filterTitle: 'THOR',
+            brandOption: 'backpacks-thor',
+            filterName: 'filter',
+            filterId: 'backpacks-thor',
+            filterValue: 'backpacks-thor',
+            isChecked: ''
+        },
+    ]
+}
+]
